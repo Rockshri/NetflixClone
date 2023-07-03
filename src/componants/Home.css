@@ -1,0 +1,45 @@
+.container{
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow-x: visible;
+    scroll-behavior: smooth;
+}
+
+.movie-content{
+    display:flex;
+  
+    
+    width:113%;
+    height: 200px;
+    /* max-width: 1000px; */
+    gap: 20px;
+    overflow-y: hidden;
+    overflow-x:visible;
+    align-items: center;
+    scroll-behavior: smooth;
+    
+    
+    /* border: 2px red solid; */
+}
+.movie-content::-webkit-scrollbar{
+    overflow: hidden;
+}
+.carousel{
+    min-width:115%;
+}
+.movie-image{
+    height:150px;
+    width:200px;
+    
+    /* object-fit: contain; */
+    transition: ease-in-out 0.3s;
+    
+}
+.movie-image:hover{
+    transform:scale(1.2);
+    border-radius: 8px;
+  
+}
+h3{
+    color: beige;
+}
